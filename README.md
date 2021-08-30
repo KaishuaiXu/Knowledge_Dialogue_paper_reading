@@ -1,2 +1,3 @@
-# Knowledge_Dialogue_paper_reading
-Knowledge_Dialogue_paper_reading
+# Knowledge Dialogue paper reading
+学习记录。
+
