@@ -2,9 +2,13 @@
 
 学习记录。
 
-## Commonsense
+## Commonsense Knowledge
 
+**Commonsense Knowledge Aware Conversation Generation with Graph Attention.** Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. (IJCAI 2018) **[paper](https://www.ijcai.org/proceedings/2018/643)**
 
+## Unclassified
+
+**Bridging the Gap between Prior and Posterior Knowledge Selection for Knowledge-Grounded Dialogue Generation.** Chen, Xiuyi, Fandong Meng, Peng Li, Feilong Chen, Shuang Xu, Bo Xu, and Jie Zhou. (EMNLP 2020) **[paper](https://aclanthology.org/2020.emnlp-main.275/)**
 
 ## Others
 
