@@ -20,6 +20,12 @@
 
 **Low-Resource Knowledge-Grounded Dialogue Generation.** Zhao, Xueliang, Wei Wu, Chongyang Tao, Can Xu, Dongyan Zhao, and Rui Yan. (ICLR 2020) **[paper](https://arxiv.org/abs/2002.10348)**
 
+**Knowledge-Aware Dialogue Generation via Hierarchical Infobox Accessing and Infobox-Dialogue Interaction Graph Network.** Wu, Sixing, Minghui Wang, Dawei Zhang, Yang Zhou, Ying Li, and Zhonghai Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
+
+**Learning to Select Knowledge for Response Generation in Dialog Systems.** Lian, Rongzhong, Min Xie, Fan Wang, Jinhua Peng, and Hua Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
+
+**Plato: Pre-trained dialogue generation model with discrete latent variable.** Bao, Siqi, Huang He, Fan Wang, Hua Wu, and Haifeng Wang. (ACL 2020) **[paper](https://arxiv.org/abs/1910.07931)**
+
 ## Others
 
 **Graph-Structured Context Understanding for Knowledge-grounded Response Generation.** Li, Yanran, Wenjie Li, and Zhitao Wang. (SIGIR 2021 short) **[paper](https://dl.acm.org/doi/abs/10.1145/3404835.3463000)**
@@ -29,4 +35,6 @@
 **Knowledge-Grounded Dialogue Generation with Pre-trained Language Models.** Zhao, Xueliang, Wei Wu, Can Xu, Chongyang Tao, Dongyan Zhao, and Rui Yan. (EMNLP 2020) **[paper](https://arxiv.org/abs/2010.08824)**
 
 文章构建了一种融合knowledge document的对话生成模型，其中document选择和对话生成共同进行优化，用RL方法无监督地调整document选择的模型。
+
+**Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots.** Yuan, Chunyuan, Wei Zhou, Mingming Li, Shangwen Lv, Fuqing Zhu, Jizhong Han, and Songlin Hu. (EMNLP 2019) **[paper](https://aclanthology.org/D19-1011/)**
 
