@@ -6,9 +6,19 @@
 
 **Commonsense Knowledge Aware Conversation Generation with Graph Attention.** Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. (IJCAI 2018) **[paper](https://www.ijcai.org/proceedings/2018/643)**
 
+**Diverse and informative dialogue generation with context-specific commonsense knowledge awareness.** Wu, Sixing, Ying Li, Dawei Zhang, Yang Zhou, and Zhonghai Wu. (ACL 2020) **[paper](https://aclanthology.org/2020.acl-main.515/)**
+
+**Grounded Conversation Generation as Guided Traverses in Commonsense Knowledge Graphs.** Zhang, Houyu, Zhenghao Liu, Chenyan Xiong, and Zhiyuan Liu. (ACL 2020) **[paper](https://aclanthology.org/2020.acl-main.184/)**
+
 ## Unclassified
 
 **Bridging the Gap between Prior and Posterior Knowledge Selection for Knowledge-Grounded Dialogue Generation.** Chen, Xiuyi, Fandong Meng, Peng Li, Feilong Chen, Shuang Xu, Bo Xu, and Jie Zhou. (EMNLP 2020) **[paper](https://aclanthology.org/2020.emnlp-main.275/)**
+
+**Improving Knowledge-Aware Dialogue Generation via Knowledge Base Question Answering.** Wang, Jian, Junhao Liu, Wei Bi, Xiaojiang Liu, Kejing He, Ruifeng Xu, and Min Yang. (AAAI 2020) **[paper](https://ojs.aaai.org/index.php/AAAI/article/view/6453)**
+
+**Sequential Latent Knowledge Selection for Knowledge-Grounded Dialogue.** Kim, Byeongchang, Jaewoo Ahn, and Gunhee Kim. (ICLR 2020) **[paper](https://arxiv.org/abs/2002.07510)**
+
+**Low-Resource Knowledge-Grounded Dialogue Generation.** Zhao, Xueliang, Wei Wu, Chongyang Tao, Can Xu, Dongyan Zhao, and Rui Yan. (ICLR 2020) **[paper](https://arxiv.org/abs/2002.10348)**
 
 ## Others
 
