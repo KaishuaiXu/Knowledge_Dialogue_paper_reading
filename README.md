@@ -34,6 +34,8 @@
 
 文章构建了context graph，涉及utterance节点（u）和entity mention节点（m），节点通过GCN进行融合交互学习，response generation参照过去研究，从候选entity中进行copy。
 
+**Response-anticipated memory for on-demand knowledge integration in response generation.** Tian, Zhiliang, Wei Bi, Dongkyu Lee, Lanqing Xue, Yiping Song, Xiaojiang Liu, and Nevin L. Zhang. (ACL 2020) **[paper](https://arxiv.org/abs/2005.06128)**
+
 **Knowledge-Grounded Dialogue Generation with Pre-trained Language Models.** Zhao, Xueliang, Wei Wu, Can Xu, Chongyang Tao, Dongyan Zhao, and Rui Yan. (EMNLP 2020) **[paper](https://arxiv.org/abs/2010.08824)**
 
 文章构建了一种融合knowledge document的对话生成模型，其中document选择和对话生成共同进行优化，用RL方法无监督地调整document选择的模型。
