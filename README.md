@@ -44,6 +44,8 @@
 
 **Low-Resource Knowledge-Grounded Dialogue Generation.** Zhao, Xueliang, Wei Wu, Chongyang Tao, Can Xu, Dongyan Zhao, and Rui Yan. (ICLR 2020) **[paper](https://arxiv.org/abs/2002.10348)**
 
+文章探索了low-resource下的对话生成问题，主要贡献是pretraining和disentangle的decoding学习。其中pretraining训练95%的参数，fine tune时固定上述参数，只调整剩下5%的参数。另外decoding manager综合考虑context、knowledge和general language model进行最终单词生成。
+
 ## Response Generation
 
 **Graph-Structured Context Understanding for Knowledge-grounded Response Generation.** Li, Yanran, Wenjie Li, and Zhitao Wang. (SIGIR 2021 short) **[paper](https://dl.acm.org/doi/abs/10.1145/3404835.3463000)**
