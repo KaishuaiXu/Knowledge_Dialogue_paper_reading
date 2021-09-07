@@ -2,6 +2,12 @@
 
 学习记录。
 
+## Pretraining
+
+**Plato: Pre-trained dialogue generation model with discrete latent variable.** Bao, Siqi, Huang He, Fan Wang, Hua Wu, and Haifeng Wang. (ACL 2020) **[paper](https://arxiv.org/abs/1910.07931)**
+
+文章提出了一个对话生成的预训练模型，核心在于估计response act的隐变量，并采样隐变量作为transformer输入序列的special token表示。（没猜错的话，NLL loss和BOW loss均为隐变量的条件期望）
+
 ## Commonsense Knowledge
 
 **Commonsense Knowledge Aware Conversation Generation with Graph Attention.** Zhou, Hao, Tom Young, Minlie Huang, Haizhou Zhao, Jingfang Xu, and Xiaoyan Zhu. (IJCAI 2018) **[paper](https://www.ijcai.org/proceedings/2018/643)**
@@ -16,17 +22,9 @@
 
 文章考虑2-hop的KG关联（过去通常都是与当前turn直接关联的concept），增强模型实现concept shift的能力。
 
-## Unclassified
-
 **Improving Knowledge-Aware Dialogue Generation via Knowledge Base Question Answering.** Wang, Jian, Junhao Liu, Wei Bi, Xiaojiang Liu, Kejing He, Ruifeng Xu, and Min Yang. (AAAI 2020) **[paper](https://ojs.aaai.org/index.php/AAAI/article/view/6453)**
 
-**Knowledge-Aware Dialogue Generation via Hierarchical Infobox Accessing and Infobox-Dialogue Interaction Graph Network.** Wu, Sixing, Minghui Wang, Dawei Zhang, Yang Zhou, Ying Li, and Zhonghai Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
-
-**Learning to Select Knowledge for Response Generation in Dialog Systems.** Lian, Rongzhong, Min Xie, Fan Wang, Jinhua Peng, and Hua Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
-
-**Plato: Pre-trained dialogue generation model with discrete latent variable.** Bao, Siqi, Huang He, Fan Wang, Hua Wu, and Haifeng Wang. (ACL 2020) **[paper](https://arxiv.org/abs/1910.07931)**
-
-**Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation.** Xu, Jun, Haifeng Wang, Zheng-Yu Niu, Hua Wu, Wanxiang Che, and Ting Liu. (ACL 2020) **[paper](https://aclanthology.org/2020.acl-main.166/)**
+文章用KBQA任务预训练对话生成模型，从而提升knowledge selection的能力。decoder端融合knowledge selection表示、encoder表示以及基于相似问题top-retrieved回复的表示（response guiding attention，一定程度解决one-to-many）。
 
 ## Knowledge Document
 
@@ -45,6 +43,14 @@
 **Low-Resource Knowledge-Grounded Dialogue Generation.** Zhao, Xueliang, Wei Wu, Chongyang Tao, Can Xu, Dongyan Zhao, and Rui Yan. (ICLR 2020) **[paper](https://arxiv.org/abs/2002.10348)**
 
 文章探索了low-resource下的对话生成问题，主要贡献是pretraining和disentangle的decoding学习。其中pretraining训练95%的参数，fine tune时固定上述参数，只调整剩下5%的参数。另外decoding manager综合考虑context、knowledge和general language model进行最终单词生成。
+
+**Learning to Select Knowledge for Response Generation in Dialog Systems.** Lian, Rongzhong, Min Xie, Fan Wang, Jinhua Peng, and Hua Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
+
+## Unclassified
+
+**Knowledge-Aware Dialogue Generation via Hierarchical Infobox Accessing and Infobox-Dialogue Interaction Graph Network.** Wu, Sixing, Minghui Wang, Dawei Zhang, Yang Zhou, Ying Li, and Zhonghai Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
+
+**Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation.** Xu, Jun, Haifeng Wang, Zheng-Yu Niu, Hua Wu, Wanxiang Che, and Ting Liu. (ACL 2020) **[paper](https://aclanthology.org/2020.acl-main.166/)**
 
 ## Response Generation
 
