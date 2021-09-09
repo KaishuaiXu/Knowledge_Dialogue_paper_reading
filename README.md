@@ -46,9 +46,13 @@
 
 **Learning to Select Knowledge for Response Generation in Dialog Systems.** Lian, Rongzhong, Min Xie, Fan Wang, Jinhua Peng, and Hua Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
 
+文章用knowledge的先验和后验分布优化knowledge selection过程。
+
 ## Unclassified
 
 **Knowledge-Aware Dialogue Generation via Hierarchical Infobox Accessing and Infobox-Dialogue Interaction Graph Network.** Wu, Sixing, Minghui Wang, Dawei Zhang, Yang Zhou, Ying Li, and Zhonghai Wu. (IJCAI 2021) **[paper](https://www.ijcai.org/proceedings/2021/546)**
+
+文章将infobox中的信息作为knowledge，并构建GAT网络。
 
 **Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation.** Xu, Jun, Haifeng Wang, Zheng-Yu Niu, Hua Wu, Wanxiang Che, and Ting Liu. (ACL 2020) **[paper](https://aclanthology.org/2020.acl-main.166/)**
 
